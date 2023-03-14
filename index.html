@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- Iconos de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- style.css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Power Code</title>
+
+</head>
+
+
+<body>
+
+  <nav id="menu" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" data-bs-theme="light" >
+    <div class="container">
+      <a class="navbar-brand mx-5" href="#"><img src="images/LOGOPNG.png" alt="Logo" width="200" height="45"
+          class="d-inline-block align-text-top"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item ">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disaled">Pagos</a>
+          </li>
+        </ul>
+        <div class="dropdown text-white">
+          <a class="nav-link" href="./login.html" role="button">
+            Iniciar Sesión
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!------------------- hero---------------->
+  <!-- carousel -->
+  <div id="carouselPowerCode" class="carousel slide">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselPowerCode" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselPowerCode" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselPowerCode" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="hero" style="background-image: url('/images/home_hero1_1280x718.jpg');"></div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero" style="background-image: url('/images/home_hero2_1280x853.jpg');"></div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero" style="background-image: url('/images/home_hero3_1280x853.jpg');"></div>
+        
+      </div> 
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPowerCode" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselPowerCode" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- hero-static -->
+  <!-- <div class="hero" style="background-image: url('images/home_hero1.jpg');">
+    <div class="container d-flex h-100 align-items-center justify-content-center">
+      <div class="row justify-content-center">
+
+        <div class="col text-center">
+          <h3>Home</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+
+          </p>
+          <p class="lead">
+            <a href="#" class="btn btn-lg btn-primary text-dark">Learn more</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div> -->
+
+  <!-- innovación -->
+  <div class="container mt-5 ">
+    <div class="row g-0">
+      <div class="col-sm-6 ">
+        <img src="images/home_programer_1280x854.jpg" class="h-100 w-100" alt="programer">
+      </div>
+      <div class="col-sm-6 ps-3 pt-3" style="background-color: #E4F5F7;">
+        <h3>Innovación</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero tempora rem error animi totam suscipit velit
+          perferendis praesentium. Laborum hic officiis officia voluptates nesciunt eaque magnam aspernatur. Quia,
+          obcaecati sequi!</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nuestro equipo -->
+  <div class="equipo container mt-5 text-dark text-center">
+    <div class="row g-0" style="background-color: #E4F5F7;">
+      <div class="columna col-12 col-md-4 border border-secondary ">
+        <i class="bi bi-laptop"></i>
+        <h3>Desarrollador front-End</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">HTML</span>
+          <span class="badge text-bg-primary">CSS</span>
+          <span class="badge text-bg-primary">JavaScript</span>
+          <span class="badge text-bg-primary">React</span>
+        </div>
+      </div>
+      <div class="columna col-12 col-md-4 border border-secondary ">
+        <i class="bi bi-laptop"></i>
+        <h3>Desarrollador Back-End</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">HTML</span>
+          <span class="badge text-bg-primary">CSS</span>
+          <span class="badge text-bg-primary">JavaScript</span>
+          <span class="badge text-bg-primary">React</span>
+        </div>
+      </div>
+      <div class="columna col-12 col-md-4 border border-secondary ">
+        <i class="bi bi-laptop"></i>
+        <h3>Diseñador</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">HTML</span>
+          <span class="badge text-bg-primary">CSS</span>
+          <span class="badge text-bg-primary">JavaScript</span>
+          <span class="badge text-bg-primary">React</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- table -->
+  <div class="container mt-5 ">
+    <h2>Nosotros</h2>
+    <p>En PowerCode somos una familia, donde compartimos una misma visión respetando y valorando lo que hace único a
+      cada uno de sus integrantes</p>
+    <div class="table-responsive">
+      <table class="table table-striped text-center">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Rol</th>
+            <th>Correo electrónico</th>
+            <th>Número de celular</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Javier</td>
+            <td>Nuñez</td>
+            <td>Programador</td>
+            <td>javier@example.com</td>
+            <td>953184098</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Javier</td>
+            <td>Nuñez</td>
+            <td>Programador</td>
+            <td>javier@example.com</td>
+            <td>953184098</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Javier</td>
+            <td>Nuñez</td>
+            <td>Programador</td>
+            <td>javier@example.com</td>
+            <td>953184098</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- proyectos -->
+  <div class="container mt-5 text-center">
+    <h2>Nuestros proyectos</h2>
+    <p>Aquí podrás encontrar nuestros proyectos más recientes</p>
+    <div class="container p-0">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  gy-3">
+        <div class="proyecto proyecto col">
+          <img class="h-100 w-100" src="/images/home_webManpro_1280x853.png" alt="manpro">
+          <div class="overlay">
+            <p>Proyecto 1</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://powercode.pe/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto col">
+          <a href="#"><img class="h-100 w-100" src="/images/home_ctruck_1280x825.jpg" alt="manpro"></a>
+          <div class="overlay">
+            <p>Proyecto 2</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://powercode.pe/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto col">
+          <a href="#"><img class="h-100 w-100" src="/images/home_web1_1280x853.jpg" alt="manpro"></a>
+          <div class="overlay">
+            <p>Proyecto 3</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://powercode.pe/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto col">
+          <a href="#"><img class="h-100 w-100" src="/images/home_web2_1280x853.jpg" alt="manpro"></a>
+          <div class="overlay">
+            <p>Proyecto 4</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://powercode.pe/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto col">
+          <a href="#"><img class="h-100 w-100" src="/images/home_web3_1280x853.jpg" alt="manpro"></a>
+          <div class="overlay">
+            <p>Proyecto 5</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://powercode.pe/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto col">
+          <a href="#"><img class="h-100 w-100" src="/images/home_web4_1280x853.jpg" alt="manpro"></a>
+          <div class="overlay">
+            <p>Proyecto 6</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://powercode.pe/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <button type="button" class="btn btn-dark mt-3 px-5 ">Ver más proyectos <i
+        class="bi bi-arrow-right-circle ps-3"></i></button>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="container-fluid bg-dark text-white p-5 mt-5 ">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class=" col-lg-4 text-center">
+            <a href="#"><img src="images/LOGOPNG.png" alt="Logo" width="200" height="45"
+                class="d-inline-block align-text-top"></a>
+          </div>
+          <div class="col">
+            <div class="row h-100 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3  ">
+              <div class="col ">
+                <div class="d-flex flex-column align-items-center">
+
+                  <h3>Links</h3>
+                  <div>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Home</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Servicios</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Nosotros</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Contacto</a>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col">
+                <div class="d-flex flex-column align-items-center">
+
+                  <h3>Proyectos</h3>
+                  <div>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Angular</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">React</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Vue</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Laravel</a>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col">
+                <div class="d-flex flex-column align-items-center">
+
+                  <h3>Contáctanos</h3>
+                  <div>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Angular</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">React</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Vue</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Laravel</a>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col">
+                <div class="d-flex flex-column align-items-center">
+
+                  <h3>Ubicación</h3>
+                  <div>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Angular</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">React</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Vue</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-decoration-none text-reset">Laravel</a>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  
+  <!--JS-->
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+  <!-- <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script> -->
+
+</body>
+
+</html>
